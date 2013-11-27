@@ -29,7 +29,7 @@ bool PepsiCan::Initialize()
 
 	mat4 m;
 	m = translate(m, vec3(0.0f, -2.0f, 0.0f));
-	m = scale(m, vec3(1.0f, 4.0f, 1.0f));
+	m = scale(m, vec3(1.375f, 4.875f, 1.375f));
 	
 	// This is the can!
 	MeshPack * the_can = Mesh::Cylinder(m, 1.0, 1.0, 10, 36, vec3(1.0f, 0.0f, 0.0f));
